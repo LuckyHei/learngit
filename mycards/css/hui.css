@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin : 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.wrap{
+	display: none;
+}
+.bg1,.wrap,.wrap1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	/*overflow: hidden;*/
+}
+.logo{
+	left: 264px;
+	top:31px;
+	position:absolute;
+	z-index: 10;
+}
+
+.loading{
+	margin-left: -114px;
+	margin-top: -218px;
+	/*display: none;*/
+}
+.loading img{
+	position: absolute;
+}
+.loading0{
+	-webkit-animation: peopleMove 0.8s infinite;
+}
+
+@-webkit-keyframes peopleMove{
+	50%{left:-5px;}
+	100%{left:5px;},
+} 
+.loading1{
+    top: 152px;
+    left: 34px;
+    -webkit-animation: cloudMove 0.8s infinite;
+}
+
+@-webkit-keyframes cloudMove{
+	50%{top: 146px;}
+	100%{top:153px;},
+} 
+
+.loading2{
+    top: 253px;
+    left: 37px;
+}
+#percent{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 300px;
+	left: 90px;
+}
+
+.title{
+	margin-left: 10px;
+	margin-top:164px;
+	-webkit-keyframes: titleMove 1.2s infinite ease-in-out;
+}
+
+
+@-webkit-keyframes titleMove{
+	50%{margin-top: 110px;}
+	100%{margin-top:140px;}
+}
+
+
+.btn{
+	margin-left: 102px;
+	margin-top: 0px;
+}
+
+.beginCards{
+	margin-left: 109px;
+	margin-top: 165px;
+}
+
+.washBefore{
+	width: 603px;
+	height: 716px;
+}
+.washBefore img{
+	position: absolute;
+	left:230px;
+	top:380px;
+	width:155px;
+}
+
+.cover_picture{
+	margin-left: 81px;
+	margin-top: 53px;
+}
+.cover_picture img{
+	width: 408px;
+	display: none;
+}
+.cover_picture img:nth-child(1){
+	display: block;
+}
+
+.wrap,.wrap1,.washAfter8,.washAfter9,.handShow{
+	display: none;
+}
+
+.washBefore img{
+	position: absolute;
+	left:230px;
+	top:380px;
+	width:155px;
+}
+
+.washAfter{
+	display: none;
+}
